@@ -20,17 +20,28 @@ var timesOfDay = function(firstNumber,secondNumber){
 	return outcome;
 };
 
+
 // Main code
 var divOutcome = timesOfDay(10,5);
 
 console.log("It's " + divOutcome + "am" + "... Should I do " + actions[0] + 
 			" or should I go to sleep so I can");
 
+			divOutcome = timesOfDay(18,2);
+			console.log(actions[3] + " at " + divOutcome + 
+			"am to get an early start in the morning? " + 
+			actions[0] + " it is!");
 
-divOutcome = timesOfDay(18,2);
-console.log(actions[3] + " at " + divOutcome + "am to get an early start in the morning?");
+// Boolean Function 
+var p = true, q = false, r = false;
 
-
+// Given: (p ∧ q) ∨ r
+	if ((p && q) || r) {
+		console.log("I'll stay up and do some more " + actions[0] + "!");
+		}else {
+			console.log("It's 5am..." + " It is hard to keep my eyes open" + 
+		" so I finally lay my head down to " + actions[2] + ".");
+};
 
 
 
