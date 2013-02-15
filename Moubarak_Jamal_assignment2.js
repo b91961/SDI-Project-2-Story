@@ -33,7 +33,7 @@ console.log("It's " + divOutcome + "am" + "... Should I do " + actions[0] +
 			actions[0] + " it is!");
 
 // Boolean Function 
-var p = true, q = false, r = false;
+		var p = true, q = false, r = false;
 
 // Given: (p ∧ q) ∨ r
 	if ((p && q) || r) {
@@ -43,7 +43,19 @@ var p = true, q = false, r = false;
 		" so I finally lay my head down to " + actions[2] + ".");
 };
 
+console.log("It's 9am... My alarm is annoyingly chirping, " + 
+			"so I open my eyes, reach over and grab my phone to find " + 
+			"5 missed calls from " + people[1] + ". " + "I tell " + people[0] + 
+			" to hit snooze");
+			
+// Number Function
+var snooze = 3;
+while (snooze > 0) {
+	console.log("I have " + snooze + " hours before I have to be up");
+	snooze--;
+};
 
+console.log("It's noon... Time to get out of bed.");
 
 
 /*
