@@ -10,7 +10,29 @@ var timesOfDay = [2, 5, 9, 12, 2],
 	people = ["Myself", "Clients", "Children"],
 	actions = ["homework", "work", "sleep", "wakeup"];
 
-console.log("My " + people[2] + " told me to " + actions[3] + " at " + timesOfDay[4] + " pm");
+// console.log("My " + people[2] + " told me to " + actions[3] + " at " + timesOfDay[4] + " 		pm");
+
+
+// Function
+var timesOfDay = function(firstNumber,secondNumber){
+	var outcome = firstNumber/secondNumber;
+	
+	return outcome;
+};
+
+// Main code
+var divOutcome = timesOfDay(10,5);
+
+console.log("It's " + divOutcome + "am" + "... Should I do " + actions[0] + 
+			" or should I go to sleep so I can");
+
+
+divOutcome = timesOfDay(18,2);
+console.log(actions[3] + " at " + divOutcome + "am to get an early start in the morning?");
+
+
+
+
 
 
 /*
